@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+	<div class="main" id="test">
+		<header class="project-header">
+			<div class="title">
+				<a class="project-header-category" href="/work/interactive/">Mobile Design</a>
+				<div class="project-header-title project-header-title--large">Ploratory</div>
+			</div>
+			<div class="project-owner">
+				<a class="project-owner-image" href="/taylor-emmerson/">
+					<img src="http://ysdn-2016.imgix.net/portraits/taylor-emmerson.jpg?w=120&amp;h=120&amp;fit=facearea&amp;facepad=2.5" alt="Taylor Emmerson" draggable="false">
+				</a>
+				<div class="project-owner-details">
+					<a class="project-owner-name" href="/taylor-emmerson/">Taylor Emmerson</a>
+				</div>
+			</div>
+		</header>
+		<iframe src="https://player.vimeo.com/video/143498263?loop=1" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	</div>
+	</body>
+	<script src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+	<script src="jquery.fitvids.js"></script>
+	<script>
+	  $(document).ready(function(){
+	    // Target your .container, .wrapper, .post, etc.
+	    $("#test").fitVids();
+	  });
+	</script>
+</html>
