@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="main" id="test">
+			<header class="project-header">
+				<div class="title">
+					<a class="project-header-category" href="/work/interactive/">Mobile Design</a>
+					<div class="project-header-title project-header-title--large">Designture</div>
+				</div>
+				<div class="project-owner">
+					<a class="project-owner-image">
+						<img src="http://ysdn-2016.imgix.net/portraits/shivani-kohli.jpg?w=120&h=120&fit=facearea&facepad=2.5" draggable="false">
+					</a>
+					<div class="project-owner-details">
+						<a class="project-owner-name">Shivani Kohli</a>
+					</div>
+				</div>
+			</header>
+			<iframe src="https://player.vimeo.com/video/163194696?title=0&byline=0&portrait=0&loop=1" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		</div>
+	</body>
+	<script src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+	<script src="jquery.fitvids.js"></script>
+	<script>
+	$(document).ready(function(){
+	// Target your .container, .wrapper, .post, etc.
+	$("#test").fitVids();
+	});
+	</script>
+</html>
